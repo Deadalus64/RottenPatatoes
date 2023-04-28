@@ -13,7 +13,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/v1/reviews") // the reviews will be on the same page as the movie
-
+//use postman for more example
 public class ReviewController {
     @Autowired
     private ReviewService reviewService;
